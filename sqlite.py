@@ -12,7 +12,7 @@ cursor =  connection.cursor()
 cursor.execute(
     f'CREATE TABLE IF NOT EXISTS {TABLE_NAME}'
     '('
-     'id INTEGER PRIMARY KEY AUTOINCREMENT'   
+     'id INTEGER PRIMARY KEY AUTOINCREMENT  '   
     ')'
 )
 
